@@ -11,3 +11,258 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.logindiv {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logindiv form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.logindiv form input {
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 12px;
+
+}
+
+.logindiv form button {
+  display: inline-block;
+  width: fit-content;
+  background: #0051af;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+}
+
+.logindiv form a {
+  margin-top: 16px;
+  display: block;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.singup {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.singup input {
+  display: block;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.singup form {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.singup form button {
+
+  display: inline-block;
+  width: fit-content;
+  background: #0051af;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+}
+
+.singup form a {
+  margin-top: 16px;
+  display: block;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.login_bg,
+.singup {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(0, 217, 255)) !important;
+}
+
+.inputalign {
+  width: 100%;
+}
+
+.maininputdiv {
+  width: 100%;
+}
+
+.inputaligndiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.singup .card {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+}
+
+.singup .card-body {
+  width: 100%;
+}
+
+.singup .card-body form {
+  width: 100%;
+}
+
+.cardalign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* @media (max-width:851px) {
+  .onmobile {
+    margin-left: 70px;
+  }
+} */
+
+/* @media (max-width:851px) and (min-width:500px) {
+  .onmobile {
+    margin-left: 70px;
+  }
+} */
+
+.onmobile {
+  text-align: center;
+}
+
+@media (max-width:500px) {
+  .inputalign {
+
+    align-items: start;
+  }
+
+  .cardalign {
+    width: 80% !important;
+  }
+
+  .logindiv {
+    align-items: center;
+  }
+
+  .card .card-body {
+    align-items: start;
+  }
+
+  .maininputdiv {
+    width: 200px;
+  }
+}
+
+.cardalign {
+  width: 50%;
+}
+
+.card .card-body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.bg-active {
+  background-color: olivedrab;
+}
+
+/* .mainDice {
+  display: flex;
+  justify-content: space-around;
+} */
+
+.start {
+  text-align: center;
+  width: 7%;
+  background-color: olivedrab;
+}
+
+.words {
+  /* max-width: 40px; */
+  display: flex;
+  justify-content: center;
+}
+
+/* .words{} */
+@media (max-width:320px) {
+
+
+  .numdev {
+    flex-direction: column;
+    width: 20%;
+    margin: 0 auto;
+  }
+
+  .mainDice {
+    width: 100%;
+    height: 250px;
+    overflow-y: scroll;
+  }
+
+}
+
+@media (max-width:375px) {
+  .countimg {
+    width: 40%;
+  }
+}
+
+@media (max-width:425px) {
+  .countimg {
+    width: 50%;
+  }
+}
+
+.logo_text {
+  font-size: 50px;
+  font-family: "Brush Script MT", cursive;
+}
+
+.countdev {
+  border: double 5px black;
+  width: 50%;
+  /* display: flex; */
+
+}
+
+.singledev {
+  width: 5%;
+  border: solid 1px green;
+  margin: 2px;
+  padding: 2px;
+
+}
+
+.outer {
+  display: flex;
+  flex-direction: row-reverse;
+}

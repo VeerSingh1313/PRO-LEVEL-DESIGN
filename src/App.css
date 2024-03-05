@@ -32,7 +32,81 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.fortext {
+  color: antiquewhite !important;
+}
+
+.heading {
+  color: #363636;
+  margin-top: 10%;
+}
+
+.main_div {
+  width: 90%;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIAqmKQDhQpcvFfuZne8CweqLDhavs3mFRrNiE1DUQ-BuoJX6G);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: 100%;
+
+}
+
+.top_div {
+
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left_div {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  flex-direction: column;
+  position: relative;
+}
+
+/* .left_div div {} */
+
+.left_div button {
+  height: 40px;
+  margin-top: 0;
+}
+
+.left_top {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  width: 90%;
+  left: 10%;
+}
+
+.left_top h1 {
+  color: black;
+}
+
+.right_div {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  color: antiquewhite;
+}
+
+.right_div a {
+  text-decoration: none;
+  height: fit-content;
+  color: aliceblue;
+}
+
+#movingbutton {
+  width: 200px;
+}
+
+/* .myButton{} */
